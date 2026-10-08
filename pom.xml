@@ -66,7 +66,7 @@
             <version>${springdoc.version}</version>
         </dependency>
 
-        <!-- Spring Boot Actuator (health checks for Heroku) -->
+        <!-- Spring Boot Actuator (health checks for cloud deployment) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
