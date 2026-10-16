@@ -2,12 +2,6 @@
 
 REST API for managing Person entities, with full CI/CD pipeline.
 
-## Live Demo
-
-- **Application**: https://person-service1.onrender.com
-- **Swagger UI**: https://person-service1.onrender.com/swagger-ui.html
-- **Health**: https://person-service1.onrender.com/actuator/health
-
 ## Tech Stack
 
 | Component        | Technology           |
