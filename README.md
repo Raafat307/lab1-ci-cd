@@ -28,10 +28,3 @@ Base URL: `/api/v1/persons`
 | POST   | `/api/v1/persons`      | Create new person | 201 + Location |
 | PATCH  | `/api/v1/persons/{id}` | Update person     | 200 / 404      |
 | DELETE | `/api/v1/persons/{id}` | Delete person     | 204 / 404      |
-
-### Example Request
-
-```bash
-curl -X POST https://person-service-xxxx.onrender.com/api/v1/persons \
-  -H "Content-Type: application/json" \
-  -d '{"name":"Ali Ahmed","age":31,"address":"Moscow","work":"BMSTU"}'
